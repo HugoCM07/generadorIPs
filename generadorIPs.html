@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>generadorIPs</title>
+    <link rel="stylesheet" href="generadorIPs.css">
+    <script src="generadorIPs.js" defer></script>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main class="contenedor">
+         <h1>Generador de direcciones IP</h1>
+         <p>simulador de una red domestica IPv4.</p>
+
+         <section>
+            <h2>1. Generador de direcciones IP</h2>
+
+            <p>Red simulada:<strong>192.168.1.0/24</strong></p>
+            <button onclick="mostrarDireccionRed()">Mostrar direccion de red</button>
+            <button onclick="mostrarPuertaEnlace()">Mostrar puerta de enlace</button>
+            <button onclick="generarIP()">Generar IP aleatoria</button>
+            <button onclick="mostrarBroadcast()">Mostrar broadcast</button>
+            <button onclick="MostrarMascara()">Mostrar masacara de subred</button>
+
+            <p id="ip">0.0.0.0</p>
+         </section>
+        </main>
+      <footer>
+                
+            </footer>
+    
+</body>
+</html>
